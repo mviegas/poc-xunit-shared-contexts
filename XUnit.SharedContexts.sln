@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XUnit.SharedContexts.Tests", "src\XUnit.SharedContexts.Tests\XUnit.SharedContexts.Tests.csproj", "{3B51D915-F352-49AC-8248-74018FB91B2C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XUnit.SharedContexts.Web", "src\XUnit.SharedContexts.Web\XUnit.SharedContexts.Web.csproj", "{AD0E3278-3B8D-480E-9E34-7446F8C042AA}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{4714CB67-6551-4588-81CD-B01CD90DB0F8}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3B51D915-F352-49AC-8248-74018FB91B2C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3B51D915-F352-49AC-8248-74018FB91B2C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3B51D915-F352-49AC-8248-74018FB91B2C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3B51D915-F352-49AC-8248-74018FB91B2C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AD0E3278-3B8D-480E-9E34-7446F8C042AA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AD0E3278-3B8D-480E-9E34-7446F8C042AA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AD0E3278-3B8D-480E-9E34-7446F8C042AA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AD0E3278-3B8D-480E-9E34-7446F8C042AA}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{3B51D915-F352-49AC-8248-74018FB91B2C} = {4714CB67-6551-4588-81CD-B01CD90DB0F8}
+		{AD0E3278-3B8D-480E-9E34-7446F8C042AA} = {4714CB67-6551-4588-81CD-B01CD90DB0F8}
+	EndGlobalSection
+EndGlobal
